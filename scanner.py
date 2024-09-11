@@ -26,7 +26,7 @@ def packet_callback(packet):
             colored_length = colored(f"Length: {length}", "red")
 
             # Format the output to ensure alignment
-            print(f"{colored_time:<10} {colored_proto:<6} {colored_ips:<45} {colored_length}")
+            print(f"{colored_time:<10} {colored_proto:<6} {colored_ips} {colored_length}")
 
     except Exception as e:
         # Print error messages in red
